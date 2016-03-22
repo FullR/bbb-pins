@@ -6,7 +6,7 @@ const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
 
 const defaultGpioDir = "/sys/class/gpio";
-
+module.exports = Pin;
 function Pin(options) {
   if(!options || !options.pinId) throw new Error("pinId option is required");
   validateDirection(options.direction);
