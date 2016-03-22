@@ -1,0 +1,7 @@
+{
+  "name": "bbb-pins",
+  "version": "0.0.3",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
